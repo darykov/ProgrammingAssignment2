@@ -36,7 +36,7 @@ makeCacheMatrix <- function(x = matrix()) {
 #If the inverse has already been calculated 
 #(and the matrix has not changed), then the cachesolve 
 #should retrieve the inverse from the cache
-# The fuction assumes that the input matri is invertible.
+# The fuction assumes that the input matrix is invertible.
 
 cacheSolve <- function(x, ...) {
   #Checks if the inverse is cached in the "composite" matrix object 
